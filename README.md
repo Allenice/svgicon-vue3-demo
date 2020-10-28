@@ -23,5 +23,9 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### transformAssetUrls
-So far, I have not found that vue3.x supports transformAssetUrls.
+### transformAssetUrls Supports
+Upgrade vue-loader to v16+
+
+```bash
+yarn add vue-loader@next --dev
+```
