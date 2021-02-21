@@ -10,6 +10,11 @@ module.exports = {
         "@icon": svgFilePaths[0]
     },
     transformAssetUrls: {
-        [tagName]: ['data']
+        [tagName]: ['data'],
+        video: ['src', 'poster'],
+        source: 'src',
+        img: 'src',
+        image: ['xlink:href', 'href'],
+        use: ['xlink:href', 'href']
     },
 }

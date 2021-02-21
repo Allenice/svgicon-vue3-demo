@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="./assets/logo.png" alt="">
     <icon :data="vueIcon" original width="100" height="100" />
     <icon data="@icon/vue.svg" color="red blue" width="100" height="100" />
   </div>
